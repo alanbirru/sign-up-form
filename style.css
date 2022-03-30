@@ -5,25 +5,29 @@
 body {
   box-sizing: border-box;
   background-color: rgb(243, 243, 243);
+  font-family: "Oswald", sans-serif;
 }
 .img {
   background: url(background.jpg);
   width: 38%;
+  height: 100%;
   position: absolute;
   left: 0px;
-  top: 0;
+  top: 0px;
 
   background-repeat: no-repeat;
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 770px;
+}
+h1 {
+  color: white;
 }
 .img div {
-  background-color: aliceblue;
+  background-color: rgba(10, 10, 10, 0.575);
   margin-top: 50%;
-  opacity: 60%;
+
   padding: 30px;
 }
 
@@ -44,7 +48,7 @@ h3 {
 } */
 .background {
   background-color: rgb(255, 255, 255);
-  padding: 30px;
+  padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
     rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
     rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
@@ -54,4 +58,50 @@ label {
 }
 form .form-input {
   margin: 20px;
+}
+.background h3 {
+  padding: 0;
+}
+.sections {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.img img {
+  width: 100px;
+  border-radius: 15px;
+}
+.img div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+input {
+  padding: 6px;
+}
+button {
+  padding: 12px;
+  margin: 14px;
+  border-radius: 7px;
+  border: none;
+  color: white;
+  background-color: rgb(19, 26, 117);
+}
+button + p {
+  padding-left: 15px;
+}
+a {
+  color: rgb(19, 26, 117);
+  text-decoration: none;
+}
+.account-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 7px;
+  width: 400px;
+}
+.textLets {
+  text-align: center;
 }
